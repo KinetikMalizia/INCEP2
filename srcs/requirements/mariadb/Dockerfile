@@ -24,6 +24,9 @@ EXPOSE 3306
 # Give the right to execute + launch the .sh
 COPY ./tools/mariadb.sh /usr/local/bin/
 COPY ./conf/wordpress.sql /usr/local/bin/
+COPY ./conf/mysqld.conf /etc/mysql/my.conf
+
+RUN chmod 777 /etc/mysql/my.conf
 RUN chmod +x /usr/local/bin/mariadb.sh
 RUN chmod +x /usr/local/bin/wordpress.sql
 
