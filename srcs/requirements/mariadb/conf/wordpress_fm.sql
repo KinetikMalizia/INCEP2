@@ -394,7 +394,7 @@ CREATE TABLE `wp_users` (
 
 LOCK TABLES `wp_users` WRITE;
 /*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
-INSERT INTO `wp_users` VALUES (1,'fmalizia','$P$B5ZXsjaG5aE.J0KLaiY.wUC.eMXkA71','fmalizia','vcbachelet@gmail.com','https://fmalizia.42.fr','2022-09-28 15:59:52','',0,'fmalizia');
+INSERT INTO `wp_users` VALUES (1,'fmalizia','$P$B5ZXsjaG5aE.J0KLaiY.wUC.eMXkA71','fmalizia','fmalizia42@gmail.com','https://fmalizia.42.fr','2022-09-28 15:59:52','',0,'fmalizia');
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
